@@ -1,0 +1,19 @@
+#something
+
+loop = True
+
+word = "a"
+while loop == True:
+  
+   word = input("Choose a 5 letter word")
+   print (len(word))
+   if len(word) != 5:
+    print ("Not five letters, try again")
+   else:
+    loop = False
+
+guess = input("Type a 5 letter word")
+if word == guess:
+  print("Correct")
+else:
+  print ("Wrong word")
